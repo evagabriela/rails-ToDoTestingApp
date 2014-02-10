@@ -10,6 +10,7 @@ gem 'sqlite3'
 
 group :test, :development do 
   gem 'rspec-rails'
+  gem 'capybara', '1.1.4'
 end
 # Gems used only for assets and not required
 # in production environments by default.
